@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+#titre {
+    color: red;
+}
+
+#nav1 {
+    text-align: center;
+    background-color: rgba(173,173,173,0.9);
+    margin-top: 0px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    margin-top: -60px;
+}
+
+#ul1 {
+    list-style-type: none;
+    padding: 0%;
+}
+
+#li1 {
+    display: inline-block;
+    padding: 0%;
+}
+
+#lien {
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px 100px 0px 100px;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+#li1:hover {
+    background-color: black;
+}
+
+#presentation {
+    background: url("assets/coding-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid grey;
+}
+
+#carre {
+    width: 50%;
+    padding: 10% 10% 10% 10% !important;
+    border-top: 25%;
+    background: rgba(0,0,0,0.75);
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#survey-form {
+    font-family: 'Poppins', sans-serif;
+}
+
+#formulaire {
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="button"] {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+input[type="button"]:hover {
+    background-color: #08215B;
+    color: white;
+    cursor: pointer;
+}
+
+#SIO {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+}
+
+#formu {
+    background: rgb(213, 174, 166);
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    line-height: 50px;
+}
+
+#presSio {
+    background: url("assets/presentation-bg.jpg");
+    border-top: 5px solid grey;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#carre2 {
+    width: 50%;
+    padding: 10% 10% 10% 10% !important;
+    border-top: 25%;
+    background: rgba(0,0,0,0.75);
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+li {
+    display: inline-block;
+    padding: 0%;
+}
+
+#lien2 {
+    font-size: 50px;
+    margin-right: 40px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 7px;
+    color: white;
+    padding: 50px;
+}

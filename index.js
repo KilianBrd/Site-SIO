@@ -52,3 +52,25 @@ function submitForm() {
 
       document.getElementById("results").innerHTML = results;
     }
+
+    const nombreAlea = entierAleatoire(0,100);
+    //Nombre aléatoire
+function entierAleatoire(min, max)
+    {
+     const nombreAlea = Math.floor(Math.random() * (max - min + 1)) + min;
+     return nombreAlea;
+    }
+
+function submitNombre () {
+  let resultatAlea ="";
+  var nombre = document.getElementById("nombreGet").value;
+  if (nombreAlea > nombre) {
+    resultatAlea += "<p> Plus grand </p>";
+  } else if (nombreAlea < nombre) {
+    resultatAlea += "<p> Plus petit </p>";
+  } else if (nombreAlea == nombre) {
+    resultatAlea += "<p> Gagné ! </p>";
+  }
+  document.getElementById("resultatAlea").innerHTML = resultatAlea;
+}
+document.getElementById('nombreAlea').innerHTML = nombreAlea;

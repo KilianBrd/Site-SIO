@@ -24,7 +24,7 @@
                 </li>
                 <li id="li1">
                     <a href="#presSio" id="lien">
-                        Présentation SIO
+                        Trouve le nombre !
                     </a>
                 </li>    
             </ul>   
@@ -80,16 +80,16 @@
     </div>
     <section id="presSio">
         <div id="carre2">
-            <h1 id="SIO">Présentation SIO</h1>
+            <h1 id="SIO">Devine un nombre</h1>
+            <p id="precision">(entre 1 et 100)</p>
         </div>
     </section>
-    <section id="deuxSpe">
-        <nav>
-            <ul>
-                <li><a href="" id="lien2">Spécialité SLAM</a></li>
-                <li><a href="" id="lien2">Spécialité SISR</a></li>
-            </ul>
-        </nav>
+    <section id="proposeUnNombre">
+        <label for="nombre">Propose un nombre :</label>
+        <input type="number" name="nombre" id="nombreGet">
+        <input type="button" value = "Soumettre" onclick="submitNombre()">
+        <div id="resultatAlea"></div>
+        <div id="nombreAlea"></div>
     </section>
     </body>
 </html>

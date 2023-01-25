@@ -8,25 +8,26 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
         <script src="index.js"></script>
+        <script src="tictac.js"></script>
     </head>
     <body>
         <nav id="nav1">
             <ul id="ul1">
                 <li id="li1">
-                    <a href="#secformu" id="lien">
-                        Test SIO
-                    </a>
-                </li>
-                <li id="li1">
                     <a href="#" id="lien">
-                        Accueil
+                        Test orientation
                     </a>
                 </li>
                 <li id="li1">
                     <a href="#presSio" id="lien">
                         Trouve le nombre !
                     </a>
-                </li>    
+                </li>
+                <li id="li1">
+                    <a href="#presMorpion" id="lien">
+                        Morpion
+                    </a>
+                </li>
             </ul>   
         </nav>
         <section id="presentation">
@@ -90,6 +91,34 @@
         <input type="button" value = "Soumettre" onclick="submitNombre()">
         <div id="resultatAlea"></div>
         <div id="nombreAlea"></div>
+    </section>
+    <section id="presMorpion">
+        <div id="carre2">
+            <h1 id="SIO">Morpion</h1>
+        </div>
+    </section>
+    <section id="morpion">
+    <table class="table">
+        <tr>
+            <td id="cell-1" class="cell"></td>
+            <td id="cell-2" class="cell"></td>
+            <td id="cell-3" class="cell"></td>
+        </tr>
+        <tr>
+            <td id="cell-4" class="cell"></td>
+            <td id="cell-5" class="cell"></td>
+            <td id="cell-6" class="cell"></td>
+        </tr>
+        <tr>
+            <td id="cell-7" class="cell"></td>
+            <td id="cell-8" class="cell"></td>
+            <td id="cell-9" class="cell"></td>
+        </tr>
+    </table>
+    
+    <div id="messageGagne"></div>
+    <button id="restart">Redémarrer</button>
+    <script src="tictac.js"></script>
     </section>
     </body>
 </html>

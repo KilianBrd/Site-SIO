@@ -161,10 +161,59 @@ li {
     color: white;
     padding-top: 5%;
     padding-bottom: 5%;
+    border-top: 5px solid rgb(54, 50, 50);
 }
 
 input[type="number"] {
     border-radius: 600px;
     color: white;
     background-color: black;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    align-items: center;
+    background-color: rgb(45, 105, 196);
+    border-radius: 50%;
+}
+
+table {
+    margin: 0 auto;
+  }
+
+#presMorpion {
+    background: url("assets/morpionBg.jpg");
+    border-top: 5px solid rgb(54, 50, 50);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#morpion {
+    background-color: #08215B;
+    border-top: 5px solid rgb(54, 50, 50);
+}
+
+#messageGagne {
+    color: white;
+}
+
+#restart {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#restart:hover {
+    background-color: #08215B;
+    color: white;
+    cursor: pointer;
 }
